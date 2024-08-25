@@ -65,7 +65,7 @@ const Body = () => {
 						const filteredList = listOfResState.filter(
 							(res) => res.info.avgRating > 4.2
 						);
-						setListOfResState(filteredList);
+						setFilteredRes(filteredList);
 						console.log(listOfResState);
 					}}
 				>
